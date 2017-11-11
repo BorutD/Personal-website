@@ -51,3 +51,16 @@ body {
     padding-bottom: 50px;
     font-size: 40px;
 }
+
+/* Connect */
+#social-media {
+	text-align: center;
+}
+.fa {
+	font-size: 40px;
+	padding: 30px;
+}
+.fa:hover {
+	color: #D5D5D5;
+	text-decoration: none;
+}
