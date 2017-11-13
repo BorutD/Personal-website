@@ -130,7 +130,7 @@
 					</div>
 					<div class="form-group">
 						<label>Message: </label>
-						<textearea class="form-control" placeholder="Enter Message"></textearea>
+						<textarea class="form-control" rows="6" cols="50" placeholder="Enter Message"></textarea>
 					</div>
 					<button class="btn btn-default">Send</button>
 				</form>
@@ -161,6 +161,23 @@
 
 	<script src="js/jquery-1.12.4.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script>
+		$(function () {
+			// Smooth Scrolling
+			$('a[href*="#"]:not([href="#"])').click(function () {
+				if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+					var target = $(this.hash);
+					target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+					if (target.length) {
+						$('html, body').animate({
+							scrollTop: target.offset().top
+						}, 1000);
+						return false;
+					}
+				}
+			});
+		});
+	</script>
 </body>
 
 </html>
