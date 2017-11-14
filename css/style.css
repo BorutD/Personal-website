@@ -4,16 +4,25 @@ body {
 
 /* Menu */
 .navbar-default {
-    background: #fff;
+    background: #00c3ff;
     border: 0;
     font-size: 18px;
+	height: 60px;
+}
+.navbar-default a {
+	color: #000 !important;
+	padding-top: 20px !important;
+	text-transform: uppercase;
 }
 .navbar-brand {
-    font-size: 22px;
-    color: #000 !important;
+    font-size: 30px;
 }
 
 /* About me */
+#left-col img {
+	width: 100%;
+	height: auto;
+}
 #right-col h1 {
     font-size: 50px;
     margin-bottom: 20px;
@@ -59,6 +68,11 @@ body {
     padding-bottom: 30px;
     text-transform: uppercase;
     font-size: 40px;
+}
+#contact #textarea {
+	resize: none;
+	overflow: hidden;
+	min-height: 80px;
 }
 #contact .btn {
 	float: right;
