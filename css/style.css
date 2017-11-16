@@ -34,6 +34,9 @@ body {
 }
 
 /* My skills */
+#skills {
+	background-color: #f3f3f3;
+}
 #skills h2 {
     text-align: center;
     padding-top: 50px;
@@ -62,6 +65,9 @@ body {
 }
 
 /* Contact */
+#contact {
+	background-color: #f3f3f3;
+}
 #contact h2 {
 	text-align: center;
     padding-top: 50px;
@@ -80,13 +86,17 @@ body {
 
 /* Connect */
 #social-media {
+	background-color: #f3f3f3;
+}
+#social-media {
 	text-align: center;
 }
 .fa {
-	font-size: 40px;
-	padding: 30px;
+	font-size: 80px;
+	padding: 40px;
+	/* color: #00c3ff; */
 }
 .fa:hover {
-	color: #D5D5D5;
+	color: #31c5ff;
 	text-decoration: none;
 }
