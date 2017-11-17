@@ -35,11 +35,11 @@ body {
 
 /* My skills */
 #skills {
-	background-color: #f3f3f3;
+	background-color: #e0fcfa;
 }
 #skills h2 {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: 20px;
     text-transform: uppercase;
     font-size: 40px;
@@ -63,10 +63,13 @@ body {
     padding-bottom: 50px;
     font-size: 40px;
 }
+#portfolio a {
+	text-decoration: none;
+}
 
 /* Contact */
 #contact {
-	background-color: #f3f3f3;
+	background-color: #e0fcfa;
 }
 #contact h2 {
 	text-align: center;
@@ -81,12 +84,19 @@ body {
 	min-height: 80px;
 }
 #contact .btn {
-	float: right;
+	font-size: 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #00c3ff;
+	border: #00c3ff 1px solid;
+	padding: 10px 20px;
+	border-radius: 10px;
+	margin-top: 10px;
 }
 
 /* Connect */
 #social-media {
-	background-color: #f3f3f3;
+	background-color: #e0fcfa;
 }
 #social-media {
 	text-align: center;
