@@ -1,7 +1,3 @@
-body {
-    margin-top: 120px;
-}
-
 /* Menu */
 .navbar-default {
     background: #00c3ff;
@@ -11,7 +7,7 @@ body {
 .navbar-brand {
 	font-size: 30px;
 	color: #fff !important;
-	padding-top: 15px;
+	padding-top: 15	px;
 }
 #navbar a {
 	color: #fff;
@@ -20,6 +16,25 @@ body {
 }
 #navbar a:hover {
     background: #00b7ff;
+}
+
+/* Header */
+#header {
+	height: 100vh;
+	background: url('../img/background.jpeg') no-repeat;
+}
+.transbox {
+	height: 100vh;
+	background-color: #000;
+	opacity: 0.8;
+}
+#header h1 {
+	text-align: center;
+	padding-top: 45vh;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 80px;
+	font-weight: bold;
 }
 
 /* About me */
