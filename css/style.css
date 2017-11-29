@@ -39,8 +39,7 @@
 
 /* About me */
 #about-me {
-	/* padding-top: 30px; */
-	padding: 40px 0;
+	padding: 50px 0;
 }
 #left-col img {
 	width: 60%;
@@ -48,10 +47,12 @@
 	border-radius: 50%;
 }
 #right-col h1 {
+	font-family: serif;
     font-size: 50px;
     margin-bottom: 20px;
 }
 #right-col p {
+	font-family: serif;
     font-size: 19px;
     line-height: 35px;
     text-align: justify;
@@ -62,6 +63,7 @@
 	background-color: #e0fcfa;
 }
 #skills h2 {
+	font-family: serif;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -71,7 +73,7 @@
 #skills .row {
     text-align: center;
     padding: 40px;
-    font-size: 35px;
+    font-size: 100px;
 }
 
 /* Portfolio */
