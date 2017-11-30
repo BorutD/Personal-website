@@ -75,6 +75,9 @@
     padding: 40px;
     font-size: 100px;
 }
+#skills .row i:hover {
+	color: #0077ff;
+}
 
 /* Portfolio */
 #portfolio h2 {
