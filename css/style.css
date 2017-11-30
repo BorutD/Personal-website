@@ -41,15 +41,17 @@
 #about-me {
 	padding: 50px 0;
 }
+#about-me h2 {
+	font-family: serif;
+	text-align: center;
+    padding-bottom: 60px;
+    text-transform: uppercase;
+    font-size: 40px;
+}
 #left-col img {
 	width: 60%;
 	height: auto;
 	border-radius: 50%;
-}
-#right-col h1 {
-	font-family: serif;
-    font-size: 50px;
-    margin-bottom: 20px;
 }
 #right-col p {
 	font-family: serif;
@@ -66,7 +68,6 @@
 	font-family: serif;
     text-align: center;
     padding-top: 20px;
-    padding-bottom: 20px;
     text-transform: uppercase;
     font-size: 40px;
 }
@@ -81,9 +82,9 @@
 
 /* Portfolio */
 #portfolio h2 {
+	font-family: serif;
     text-align: center;
     padding-top: 50px;
-    padding-bottom: 30px;
     text-transform: uppercase;
     font-size: 40px;
 }
@@ -101,6 +102,7 @@
 	background-color: #e0fcfa;
 }
 #contact h2 {
+	font-family: serif;
 	text-align: center;
     padding-top: 50px;
     padding-bottom: 30px;
@@ -130,12 +132,11 @@
 #social-media {
 	text-align: center;
 }
-.fa {
+#social-media i {
 	font-size: 80px;
 	padding: 40px;
-	/* color: #00c3ff; */
 }
-.fa:hover {
+#social-media i:hover {
 	color: #31c5ff;
 	text-decoration: none;
 }
