@@ -76,8 +76,18 @@
     padding: 40px;
     font-size: 100px;
 }
-#skills .row i:hover {
+/* #skills .icon i:hover{
 	color: #0077ff;
+} */
+#skills .overlay {
+	display: none;
+}
+
+.iconAfter {
+	display: none;
+}
+.overlayAfter {
+	display: block;
 }
 
 /* Portfolio */

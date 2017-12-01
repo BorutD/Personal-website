@@ -23,7 +23,6 @@ $(function () {
 	});
 });
 
-function toggleSkills() {
-	var element = document.getElementsByClassName("visible");
-	element.classList.toggle("visibleStyle");
- }
+$(".icon").hover(function () {
+	$(this).toggleClass("iconAfter");
+});
