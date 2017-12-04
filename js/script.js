@@ -23,6 +23,10 @@ $(function () {
 	});
 });
 
-$(".icon").hover(function () {
-	$(this).toggleClass("iconAfter");
+/* $(".icon").mouseover(function () {
+	$(this).addClass("iconAfter");
 });
+
+$(".icon").mouseout(function () {
+	$(this).removeClass("iconAfter");
+}); */
