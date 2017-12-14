@@ -73,14 +73,26 @@
 }
 #skills .row {
     text-align: center;
-    font-size: 160px;
 }
 #skills .col-lg-4 {
-	padding: 100px;
+	/* padding: 100px; */
+	height: 400px;
     border: 1px solid #ffffff;
 }
-#skills .col-lg-4:hover{
-	color: #0077ff;
+#skills .col-lg-4:hover .overlay{
+	display: block;
+	padding-top: 100px;
+    font-size: 90px;
+}
+#skills .col-lg-4:hover .icon{
+	display: none;
+}
+#skills .icon {
+	padding-top: 100px;
+    font-size: 160px;
+}
+#skills .overlay {
+	display: none;
 }
 
 /* Portfolio */
@@ -92,9 +104,11 @@
     font-size: 40px;
 }
 #portfolio .row {
+	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
     text-align: center;
     padding-bottom: 50px;
-    font-size: 40px;
+	font-size: 60px;
+	letter-spacing: 4px;
 }
 #portfolio .col-lg-6 {
 	padding: 100px;
@@ -102,6 +116,8 @@
 }
 #portfolio a {
 	text-decoration: none;
+	color: #000000;
+    text-transform: uppercase;
 }
 
 /* Contact */
@@ -146,4 +162,9 @@
 #social-media i:hover {
 	color: #31c5ff;
 	text-decoration: none;
+}
+
+/* Footer */
+footer {
+	padding-top: 10px;
 }
