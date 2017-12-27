@@ -75,15 +75,15 @@
 }
 #skills .col-lg-4 {
 	height: 400px;
-    border: 1px solid #ffffff;
+    border: 1px solid #fff;
 }
 #skills .col-lg-4:hover .overlay{
+	text-align: center;
 	opacity: 1;
 	filter: alpha(opacity=100);
-	z-index: 50;
-	padding-top: 100px;
+	padding-top: 30px;
     font-size: 80px;
-	top: 0;
+	top: 100px;
 }
 #skills .col-lg-4:hover .icon{
 	display: none;
@@ -93,13 +93,12 @@
     font-size: 150px;
 }
 #skills .overlay {
-	position: absolute;
+	position: relative;
 	overflow: hidden;
 	opacity: 0;
 	filter: alpha(opacity=0);
-	z-index: 50;
-	top: -120px;
-  	transition: top 300ms cubic-bezier(0.4, 0.8, 0.9, 0.9);
+	top: -50px;
+	transition: top 300ms cubic-bezier(0.4, 0.8, 0.9, 0.9);
 }
 
 /* Portfolio */
@@ -118,12 +117,12 @@
 	letter-spacing: 4px;
 }
 #portfolio .col-lg-6 {
-	padding: 100px;
+	padding: 120px;
 	border: 1px solid #e0fcfa;
 }
 #portfolio a {
 	text-decoration: none;
-	color: #000000;
+	color: #000;
     text-transform: uppercase;
 }
 
@@ -148,11 +147,16 @@
 	font-size: 18px;
 	text-decoration: none;
 	text-transform: uppercase;
-	color: #00c3ff;
-	border: #00c3ff 1px solid;
+	color: #000;
+	border: #000 1px solid;
 	padding: 10px 20px;
 	border-radius: 10px;
 	margin-top: 10px;
+	float: right;
+	transition: border 0.2s ease;
+}
+#contact .btn:hover {
+	border: rgba(0, 0, 0, 0.5) 1px solid;
 }
 
 /* Connect */
@@ -165,6 +169,7 @@
 #social-media i {
 	font-size: 80px;
 	padding: 40px;
+	transition: color 0.1s;
 }
 #social-media i:hover {
 	color: #31c5ff;
