@@ -22,11 +22,3 @@ $(function () {
 		}
 	});
 });
-
-/* $(".icon").mouseover(function () {
-	$(this).addClass("iconAfter");
-});
-
-$(".icon").mouseout(function () {
-	$(this).removeClass("iconAfter");
-}); */
