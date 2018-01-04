@@ -45,7 +45,7 @@
 	text-align: center;
     padding-bottom: 60px;
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 50px;
 }
 #left-col img {
 	width: 60%;
@@ -68,7 +68,7 @@
     text-align: center;
     padding: 30px 0px;
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 50px;
 }
 #skills .row {
     text-align: center;
@@ -107,14 +107,14 @@
     text-align: center;
     padding-top: 50px;
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 50px;
 }
 #portfolio .row {
 	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
     text-align: center;
     padding-bottom: 50px;
 	font-size: 60px;
-	letter-spacing: 4px;
+	letter-spacing: 5px;
 }
 #portfolio .col-lg-6 {
 	height: 350px;
@@ -134,7 +134,7 @@
 
 /* Contact */
 #contact {
-	background-color: #e0fcfa;
+	background-color: #eefdfc;
 }
 #contact h2 {
 	font-family: serif;
@@ -142,7 +142,10 @@
     padding-top: 50px;
     padding-bottom: 30px;
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 50px;
+}
+#contact label {
+	font-size: 17px;
 }
 #contact #textarea {
 	resize: none;
@@ -167,7 +170,7 @@
 
 /* Connect */
 #social-media {
-	background-color: #e0fcfa;
+	background-color: #eefdfc;
 }
 #social-media {
 	text-align: center;

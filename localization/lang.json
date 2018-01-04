@@ -1,0 +1,30 @@
+{
+	"strings": {
+		"navbar": {
+			"aboutMe": "About me",
+			"skills": "Skills",
+			"portfolio": "Portfolio",
+			"contact": "Contact"
+		},
+		"header": "Welcome to my page",
+		"aboutMe": {
+			"text1": "Hello and welcome to my website. My name is Borut and I'm a web developer. My skills are mainly focused on front-end development, however my goal is to become Full-Stack Developer.",
+			"text2": "For more information about my skills and projects, please scroll down."
+		},
+		"mySkills": {
+			"html": "HTML is one of the fundamental languages in the web, therefore it is a must for any web developer to have at least some basic knowledge in it.",
+			"css": "Just like HTML, CSS is another language that every web developer should know. My skills in CSS are on the mid-level at the moment.",
+			"js": "JavaScript is the programming language that brings your browser to life. My long term goal is to become an expert in JS because it has shown that it is here to stay.",
+			"angular": "Knowing JavaScript very good is essential, however it's also really useful to master at least one JS framework. I still see myself as a beginner in this framework, however my goal is to get to the mid-level by the end of 2018.",
+			"php": "PHP was the first backend programming language that I encountered. I also used in a lot of other projects and I had no chance but to learn it. However my goal is to also include Python in my backend skills list.",
+			"mysql": "Similar to PHP, MySQL was also the first Database query language that I encountered. I became good at it fairly quickly since it's quite easy to learn."
+		},
+		"contact": {
+			"name": "Name",
+			"email": "E-mail",
+			"message": "Message",
+			"send": "Send"
+		},
+		"social": "You can also find me on"
+	}
+}
