@@ -1,6 +1,6 @@
 /* Menu */
 .navbar-default {
-    background: #00c3ff;
+	background: rgba(0, 0, 0, 0.8);
     border: 0;
     font-size: 18px;
 }
@@ -9,21 +9,21 @@
 	color: #fff !important;
 	padding-top: 15	px;
 }
-#navbar a {
+#navbarCollapse a {
 	color: #fff;
 	padding-top: 17px;
 	text-transform: uppercase
 }
-#navbar a:hover {
-    background: #00b7ff;
+#navbarCollapse a:hover {
+	color: rgb(184, 184, 184);
 }
 
 /* Header */
 #header {
 	height: 100vh;
 	background: url('../img/background.jpg');
-	background-size:     cover;
-    background-repeat:   no-repeat;
+	background-size: cover;
+    background-repeat: no-repeat;
     background-position: center center;
 }
 .transbox {
@@ -32,11 +32,16 @@
 }
 #header h1 {
 	text-align: center;
-	padding-top: 45vh;
-	text-transform: uppercase;
+	padding-top: 38vh;
 	color: #fff;
-	font-size: 80px;
+	font-size: 90px;
 	font-weight: bold;
+}
+#header h2 {
+	text-align: center;
+	color: rgb(150, 175, 223);
+	font-size: 45px;
+	font-family: Roboto Slab;
 }
 
 /* About me */
@@ -44,14 +49,15 @@
 	padding: 50px 0;
 }
 #about-me h2 {
-	font-family: serif;
+	font-family: 'Oswald', serif;
 	text-align: center;
     padding-bottom: 60px;
     text-transform: uppercase;
-    font-size: 50px;
+	font-size: 60px;
+	font-weight: 500;
 }
 #left-col img {
-	width: 60%;
+	width: 55%;
 	height: auto;
 	border-radius: 50%;
 }
@@ -64,14 +70,16 @@
 
 /* My skills */
 #skills {
-	background-color: #e0fcfa;
+	/* background-color: #e0fcfa; */
+	background-color: rgb(235, 250, 255);
 }
 #skills h2 {
-	font-family: serif;
+	font-family: 'Oswald', serif;
     text-align: center;
     padding: 30px 0px;
     text-transform: uppercase;
-    font-size: 50px;
+	font-size: 60px;
+	font-weight: 500;
 }
 #skills .row {
     text-align: center;
@@ -93,7 +101,7 @@
 }
 #skills .icon {
 	padding-top: 100px;
-    font-size: 150px;
+    font-size: 175px;
 }
 #skills .overlay {
 	position: relative;
@@ -106,11 +114,12 @@
 
 /* Portfolio */
 #portfolio h2 {
-	font-family: serif;
+	font-family: 'Oswald', serif;
     text-align: center;
     padding-top: 50px;
     text-transform: uppercase;
-    font-size: 50px;
+	font-size: 60px;
+	font-weight: 500;
 }
 #portfolio .row {
 	font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
@@ -122,7 +131,7 @@
 #portfolio .col-lg-6 {
 	height: 350px;
 	padding: 120px;
-	border: 1px solid #e0fcfa;
+	border: 1px solid rgb(235, 250, 255);
 	transition: 200ms;
 }
 #portfolio .col-lg-6:hover {
@@ -137,15 +146,17 @@
 
 /* Contact */
 #contact {
-	background-color: #eefdfc;
+	/* background-color: #eefdfc; */
+	background-color: rgb(235, 250, 255);
 }
 #contact h2 {
-	font-family: serif;
+	font-family: 'Oswald', serif;
 	text-align: center;
     padding-top: 50px;
     padding-bottom: 30px;
     text-transform: uppercase;
-    font-size: 50px;
+	font-size: 60px;
+	font-weight: 500;
 }
 #contact label {
 	font-size: 17px;
@@ -173,9 +184,8 @@
 
 /* Connect */
 #social-media {
-	background-color: #eefdfc;
-}
-#social-media {
+	/* background-color: #eefdfc; */
+	background-color: rgb(235, 250, 255);
 	text-align: center;
 }
 #social-media i {
@@ -191,4 +201,15 @@
 /* Footer */
 footer {
 	padding-top: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+	#header h1 {
+		font-size: 60px;
+	}
+
+	#portfolio .row {
+		font-size: 40px;
+	}
 }

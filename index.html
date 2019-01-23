@@ -7,39 +7,38 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Personal Website</title>
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
-	<link rel="stylesheet" href="css/font-mfizz-2.4.1/dist/font-mfizz.css">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oswald">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+	 crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 	<!-- MENU -->
-	<nav class="navbar navbar-default navbar-fixed-top">
+	<nav class="navbar navbar-default navbar-expand-md navbar-light fixed-top">
 		<div class="container">
+			<a href="#" class="navbar-brand">Home</a>
 			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
-				 aria-controls="navbar">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-expanded="false"
+				 aria-controls="navbarCollapse" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
 				</button>
-				<a href="#" class="navbar-brand">Borut Drazumeric</a>
 			</div>
-			<div id="navbar" class="collapse navbar-collapse">
-				<ul class="nav navbar-nav navbar-right">
-					<li>
-						<a href="#about-me">About me</a>
+			<div id="navbarCollapse" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#about-me">About me</a>
 					</li>
-					<li>
-						<a href="#skills">Skills</a>
+					<li class="nav-item">
+						<a class="nav-link" href="#skills">Skills</a>
 					</li>
-					<li>
-						<a href="#portfolio">Portfolio</a>
+					<li class="nav-item">
+						<a class="nav-link" href="#portfolio">Portfolio</a>
 					</li>
-					<li>
-						<a href="#contact">Contact</a>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -49,16 +48,15 @@
 	<!-- HEADER -->
 	<section id="header">
 		<div class="transbox">
-			<h1>Welcome to my page</h1>
+			<h1>Borut Dražumerič</h1>
+			<h2>Full-Stack Developer</h2>
 		</div>
 	</section>
 
 	<!-- ABOUT ME -->
 	<section id="about-me">
 		<div class="container">
-			<div class="row">
-				<h2>About me</h2>
-			</div>
+			<h2>About me</h2>
 			<div class="row">
 				<div class="col-sm-6 col-md-6 col-lg-6">
 					<div id="left-col">
@@ -68,9 +66,9 @@
 				<div class="col-sm-6 col-md-6 col-lg-6">
 					<div id="right-col">
 						<p>Hello and welcome to my website. My name is Borut and I'm a web developer. My skills are mainly focused on
-							front-end
-							development, however my goal is to become Full-Stack Developer.
-							<br> For more information about my skills and projects, please scroll down.
+							front-end development, however my goal is to become Full-Stack Developer.
+							<br>
+							For more information about my skills and projects, please scroll down.
 						</p>
 					</div>
 				</div>
@@ -81,71 +79,63 @@
 	<!-- SKILLS -->
 	<section id="skills">
 		<div class="container-fluid">
-			<div class="row">
-				<h2>My skills</h2>
-			</div>
+			<h2>My skills</h2>
 			<div class="row">
 				<div class="col-sm-4 col-md-4 col-lg-4">
 					<div class="icon">
-						<i class="icon-html5"></i>
+						<i class="fab fa-html5"></i>
 					</div>
 					<div class="overlay">
 						HTML is one of the fundamental languages in the web, therefore it is a must for any web developer to have at
-						least some basic
-						knowledge in it.
+						least some basic knowledge in it.
 					</div>
 				</div>
 				<div class="col-sm-4 col-md-4 col-lg-4">
 					<div class="icon">
-						<i class="icon-css3"></i>
+						<i class="fab fa-css3"></i>
 					</div>
 					<div class="overlay">
 						Just like HTML, CSS is another language that every web developer should know. My skills in CSS are on the
-						mid-level at the
-						moment.
+						mid-level at the moment.
 					</div>
 				</div>
 				<div class="col-sm-4 col-md-4 col-lg-4">
 					<div class="icon">
-						<i class="icon-javascript"></i>
+						<i class="fab fa-js"></i>
 					</div>
 					<div class="overlay">
 						JavaScript is the programming language that brings your browser to life. My long term goal is to become an expert
-						in JS because
-						it has shown that it is here to stay.
+						in JS because it has shown that it's here to stay.
 					</div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-sm-4 col-md-4 col-lg-4">
 					<div class="icon">
-						<i class="icon-reactjs"></i>
+						<i class="fab fa-react"></i>
 					</div>
 					<div class="overlay">
 						Knowing JavaScript is essential for every Web Developer. However it's also really useful to master at least one
-						JS framework. I
-						still see
-						myself as a junior in ReactJS, however my goal is to get to the mid-level by the end of 2019.
+						JS framework. I still see myself as a junior in ReactJS, however my goal is to get to the mid-level by the end of
+						2019.
 					</div>
 				</div>
 				<div class="col-sm-4 col-md-4 col-lg-4">
 					<div class="icon">
-						<i class="icon-php"></i>
+						<i class="fab fa-php"></i>
 					</div>
 					<div class="overlay">
 						PHP was the first backend programming language that I encountered. I also used in a lot of other projects and I
-						had no chance
-						but to learn it. However my goal is to also include Python in my backend skills list.
+						had no chance but to learn it. However my goal is to also include Python in my backend skills list.
 					</div>
 				</div>
 				<div class="col-sm-4 col-md-4 col-lg-4">
 					<div class="icon">
-						<i class="icon-mysql"></i>
+						<i class="fas fa-database"></i>
 					</div>
 					<div class="overlay">
-						Similar to PHP, MySQL was also the first Database query language that I encountered. I became good at it fairly
-						quickly since
-						it's quite easy to learn.
+						For a full-stack developer, it is very important to know how to store the data. I have experience with MySQL and
+						MongoDB.
 					</div>
 				</div>
 			</div>
@@ -155,9 +145,7 @@
 	<!-- PORTFOLIO -->
 	<section id="portfolio">
 		<div class="container-fluid">
-			<div class="row">
-				<h2>Portfolio</h2>
-			</div>
+			<h2>Portfolio</h2>
 			<div class="row">
 				<div class="col-sm-6 col-md-6 col-lg-6">
 					<div class="task">
@@ -176,59 +164,53 @@
 	<!-- CONTACT -->
 	<section id="contact">
 		<div class="container">
-			<div class="row">
-				<h2>Contact me</h2>
-			</div>
-			<div class="row">
-				<form>
-					<div class="form-group">
-						<label>Name: </label>
-						<input type="text" class="form-control" placeholder="Your name">
-					</div>
-					<div class="form-group">
-						<label>Email: </label>
-						<input type="text" class="form-control" placeholder="Your email">
-					</div>
-					<div class="form-group">
-						<label>Message: </label>
-						<textarea id="textarea" class="form-control" oninput="auto_grow(this)" placeholder="Your message"></textarea>
-					</div>
-					<!-- <button class="btn btn-default">Send</button> -->
-					<a href="#" class="btn">Send</a>
-				</form>
-			</div>
+			<h2>Contact me</h2>
+			<form>
+				<div class="form-group">
+					<label>Name: </label>
+					<input type="text" class="form-control" placeholder="Your name">
+				</div>
+				<div class="form-group">
+					<label>Email: </label>
+					<input type="text" class="form-control" placeholder="Your email">
+				</div>
+				<div class="form-group">
+					<label>Message: </label>
+					<textarea id="textarea" class="form-control" oninput="auto_grow(this)" placeholder="Your message"></textarea>
+				</div>
+				<a href="#" class="btn">Send</a>
+			</form>
 		</div>
 	</section>
 
 	<!-- SOCIAL MEDIA -->
 	<section id="social-media">
 		<div class="container">
-			<div class="row">
-				<h2>You can also find me on</h2>
-			</div>
-			<div class="row">
-				<a href="https://twitter.com/BorutDrazumeric" target="_blank">
-					<i class="fa fa-twitter"></i>
-				</a>
-				<a href="https://www.linkedin.com/in/borut-dra%C5%BEumeri%C4%8D-329400105/" target="_blank">
-					<i class="fa fa-linkedin"></i>
-				</a>
-				<a href="https://github.com/BorutD" target="_blank">
-					<i class="fa fa-github"></i>
-				</a>
-			</div>
+			<h2>You can also find me on</h2>
+			<a href="https://twitter.com/BorutDrazumeric" target="_blank">
+				<i class="fab fa-twitter"></i>
+			</a>
+			<a href="https://www.linkedin.com/in/borut-dra%C5%BEumeri%C4%8D-329400105/" target="_blank">
+				<i class="fab fa-linkedin"></i>
+			</a>
+			<a href="https://github.com/BorutD" target="_blank">
+				<i class="fab fa-github"></i>
+			</a>
+			<a href="https://codepen.io/" target="_blank">
+				<i class="fab fa-codepen"></i>
+			</a>
 		</div>
 	</section>
 
 	<!-- FOOTER -->
 	<footer>
 		<div class="container">
-			<p class="text-center">Made by Borut Drazumeric &copy; 2017</p>
+			<p class="text-center copyright"></p>
 		</div>
 	</footer>
 
 	<script src="js/jquery-1.12.4.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
 	<script src="js/script.js"></script>
 </body>
 
