@@ -41,6 +41,27 @@
 	font-size: 45px;
 	font-family: Roboto Slab;
 }
+#header h4 {
+	color: #f9f9f9;
+	position: absolute;
+	bottom: 80px;
+	text-align: center;
+	width: 100%;
+	font-weight: bold;
+}
+.arrows {
+	width: 60px;
+	height: 72px;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 20px;
+}
+.arrows path {
+	stroke: #f9f9f9;
+	fill: transparent;
+	stroke-width: 4px;
+}
 
 /* About me */
 #about-me {
